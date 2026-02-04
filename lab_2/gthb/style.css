@@ -1,1 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
 
+body {
+    background: #f6f8fa;
+    color: #24292f;
+}
+
+.header {
+    text-align: center;
+    padding: 60px 20px 40px;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.header p {
+    max-width: 720px;
+    margin: 0 auto 24px;
+    color: #57606a;
+}
+
+.btn-primary {
+    background: #24292f;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+.pricing {
+    max-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 28px 24px 32px;
+    border: 1px solid #d0d7de;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #57606a;
+    margin-bottom: 20px;
+}
+
+.price {
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.currency {
+    font-size: 20px;
+    position: relative;
+    top: -19px;
+    color: #232930;
+}
+
+.amount {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.unit {
+    font-size: 30px;
+    margin-left: 4px;
+}
+
+.per {
+    font-size: 16px;
+    color: #57606a;
+    margin-left: 6px;
+}
+
+.btn-outline,
+.btn-dark,
+.buttons {
+    margin-top: auto;
+}
+
+.btn-outline {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.btn-dark {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(#2f363d, #24292f);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    margin-top: 15px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.feature {
+    margin-bottom: 12px;
+}
+
+.feature summary::before {
+    color: #57606a;
+}
+
+.enterprise {
+     border: 5px solid #0969da;
+}
+
+
+.badge {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0969da;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 14px;
+    border-radius: 999px;
+
+}
+
+.addons {
+    max-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+}
+
+.addons h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.addons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.addon-card {
+    background: #fff;
+    border: 1px solid #d0d7de;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.addon-card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.addon-card p {
+    font-size: 14px;
+    color: #57606a;
+    margin-bottom: 12px;
+}
+
+.addon-card a {
+    font-size: 14px;
+    color: #0969da;
+    text-decoration: none;
+}
+
+.addon-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.purple { background: #f0e7ff; }
+.green  { background: #dafbe1; }
+.blue   { background: #ddf4ff; }
+.pink   { background: #ffeef8; }
+.orange { background: #fff1e5; }
+.yellow { background: #fff8c5; }
