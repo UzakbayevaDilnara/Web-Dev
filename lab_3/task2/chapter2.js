@@ -1,7 +1,11 @@
-let admin, name; // can declare two variables at once
-
-name = "John";
-
-admin = name;
-
-alert( admin ); // "John"
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+      let admin, name;
+      name = "Dilnara";
+      admin = name;
+      alert(admin);
+  </script>
+</body>
+</html>
