@@ -2,7 +2,7 @@
 <html>
 <body>
   <script>
-    'use strict';
+    'use strict'; // қателерды аныктауга сторогий режим
     let name = prompt("Ваше имя?", "");
     alert(name);
   </script>
