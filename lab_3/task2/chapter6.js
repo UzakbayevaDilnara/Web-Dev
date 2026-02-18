@@ -4,7 +4,7 @@
     <script>
     let num1 = 10,
     num2 = 20,
-    result;
+    result; //undefined мәні
 
     if (result === null || result === undefined) {
     if (num1 !== null && num1 !== undefined) {
