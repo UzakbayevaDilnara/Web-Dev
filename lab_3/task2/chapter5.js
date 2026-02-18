@@ -4,9 +4,9 @@
     <script>
         let a=5, b=2;
         if (a + b < 4) {
-        result = 'Мало';
+        result = 'Аз';
         } else {
-        result = 'Много';
+        result = 'Көп';
         }
     </script>
 </body>
