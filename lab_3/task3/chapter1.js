@@ -2,17 +2,18 @@
 <html>
 <body>
     <script>
-    function pow(x,n)
-{
+    function pow(x,n){
       let result=1;
-      for(let i=0;i<n;i++) {result*=x;}
+      for(let i=0;i<n;i++) {
+          result*=x;
+      }
       return result;
-}
+   }
 
-    let x=prompt("x?",''), n=prompt("n?",'')
+    let x=prompt("x?" , " "), n=prompt("n?",'') //сан береміз
     if (n<=0)
 {
-        alert(`Степень ${n} не поддерживается, введите целую степень, большую 0`);
+        alert(` ${n} дәрежесі қате, 0ден үлкен сан енгізіңіз`);
 }
     else
 {
